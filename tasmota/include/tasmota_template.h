@@ -204,7 +204,7 @@ enum UserSelectablePins {
   GPIO_LD2410_TX, GPIO_LD2410_RX,      // HLK-LD2410
   GPIO_MBR_TX_ENA, GPIO_NRG_MBS_TX_ENA, // Modbus Bridge Serial Transmit Enable
   GPIO_ME007_TRIG, GPIO_ME007_RX,       // ME007 Serial/Trigger interface
-  GPIO_TUYAMCUBR_TX, GPIO_TUYAMCUBR_RX,  // TuyaMCU Bridge
+  GPIO_TUYAMCUBR_TX, GPIO_TUYAMCUBR_RX, // TuyaMCU Bridge
   GPIO_SENSOR_END };
 
 // Error as warning to rethink GPIO usage with max 2045
